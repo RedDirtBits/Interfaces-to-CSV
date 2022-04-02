@@ -39,5 +39,3 @@ class Constant():
         return "".join(random.choices(string.ascii_letters, k=12))
 
 
-print(Constant.create_id())
-
