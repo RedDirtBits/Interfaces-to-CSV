@@ -11,8 +11,9 @@ def open_device_list_file(filename):
     Returns:
         list: Contains the IP/hostname of the device to be connected to and its device type
         for use with Netmiko
-        Device type can be cisco_ios for typical routers and switches, cisco_nxos for Nexus devices
-        or even cisco_ios_telnet for devices still using Telnet **gasp**
+
+        Device type can be "cisco_ios" for typical routers and switches, "cisco_nxos" for Nexus devices
+        or even "cisco_ios_telnet" for devices still using Telnet **gasp**
     """
 
     device_list = []

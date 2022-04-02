@@ -71,6 +71,7 @@ for device in open_device_list_file(Constant.devices_list() / "devices.txt"):
 
     else:
         logging.error(f"Failed to create a connection profile for {device[0]}")
+        continue
 
 try:
     # Open a CSV file whose filename is taken from the hostname
