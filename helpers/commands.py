@@ -5,10 +5,10 @@ class RunCommand():
     to be run on Cisco devices
 
     Returns:
-        str: show ip route
-        str: show ip route | b Gateway
-        str: show ip interface brief
-        str: show ip interface brief | i up
+        show_routes str: show ip route
+        show_routes_minimal str: show ip route | b Gateway
+        show_interfaces_all str: show ip interface brief
+        show_up_interfaces str: show ip interface brief | i up
     """
 
     @staticmethod

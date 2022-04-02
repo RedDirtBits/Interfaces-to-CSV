@@ -10,11 +10,11 @@ class Constant():
     of the environment, and a timestamp
 
     Returns:
-        str: root path
-        str: file path
-        str: path to file that contains the device(s) list
-        str: timestamp
-        str: ID created from a random selection of ascii characters
+        root_path str: Project root path
+        script_path str: file path
+        devices_list str: Path to file that contains the device(s) list
+        timestamp str: timestamp in month-day-Year_Hour:Minutes:Seconds format
+        create_id str: ID created from a random selection of ascii characters
     """
 
     @staticmethod

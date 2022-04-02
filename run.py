@@ -16,7 +16,7 @@ from credentials.credentials import GetCredentials
 
 # Set a starting timer.  Mainly for initial testing
 START_TIME = time.time()
-TIMESTAMP = datetime.now().strftime("%m-%d-%Y_T%H:%M:%S")
+TIMESTAMP = Constant.timestamp()
 
 # The first log entry when the application starts will deliniate when it
 # has started and the root directory in which the script is running

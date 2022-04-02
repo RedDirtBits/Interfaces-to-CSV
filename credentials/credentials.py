@@ -11,9 +11,9 @@ class GetCredentials():
      .env file a bit more
 
     Returns:
-        str: username
-        str: password
-        str: enable password
+        netlab_user str: SSH username
+        netlab_passwd str: SSH password
+        netlab_enable str: enable password
     """
 
     @staticmethod
