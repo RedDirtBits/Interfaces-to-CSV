@@ -104,12 +104,12 @@ except ValueError:
     # If the field names don't match names in the writerow action, it will throw a ValueError
     logging.error(
         f"There was an error when trying to write to the CSV file.\n \
-        If it contains only the header row, check the writerow field names"
+          If it contains only the header row, check the writerow field names"
         )
 except NameError:
     logging.error(
         "The Hostname was undefined.\n \
-        This likely means that SSH to the device was unsuccessful and unable to get the hostname")
+         This likely means that SSH to the device was unsuccessful and unable to get the hostname")
 
 
 # for enum, interface in enumerate(formatted_output):
