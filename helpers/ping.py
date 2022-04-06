@@ -1,6 +1,6 @@
 import icmplib
 
-from logs import logging
+from helpers.logs import logging
 
 def ip4_ping(ip4_addr, packets=2):
     """
