@@ -32,11 +32,6 @@ for device in open_device_list(Constant.devices_list() / "devices.txt"):
     # ping it to see if it can be reached.  If either fails, abort the process
     if ip4_validate(device[0]) and ip4_ping(device[0]):
 
-        # Should add something here to abort if ping fails.  If the device cannot be pinged
-        # it is highly likely that SSH is not going to be possible.  This needs to be re-worked
-        # so that if EITHER the validation fails OR ping fails, creating the connection profile
-        # is aborted and move to the next device.
-
         device_ssh_connection = {
             "host": device[0],
             "device_type": device[1],
